@@ -1,0 +1,14 @@
+{% block content %}
+<h1>Aplicacion de Pedidos</h1>
+<link rel="stylesheet" href="static/css/estilo.css">
+<hr>
+<h2>Consultar Producto por ID</h2>
+<form action='/listProduct'>
+    <p>Id del producto <br>
+        <input type="text" name="idproducto"> 
+    </p>
+    <p>
+        <input type="submit" value="Consultar">
+    </p>
+</form>
+{% endblock %}
